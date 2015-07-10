@@ -46,6 +46,35 @@
         text-decoration: none;
         padding: 0;
     }
+
+    /*COLLECTIONS MENU*/
+    #collections {
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        margin-top: 1em;
+        margin-bottom: 3em;
+    }
+
+    #collections ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    #collections ul li {
+        margin-bottom: 2px;
+    }
+
+    #collections h4 {
+        font-weight:bold;
+        margin-top: 0;
+        margin-bottom: 0;
+        border-bottom: 1px solid #000;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 0.5em;
+    }
     
     /* unvisited link */
     a:link {
@@ -159,6 +188,36 @@
         border-top-style: solid;
         padding-top: 10px;
         margin-bottom: 10px;
+    }
+
+    /*COLLECTIONS MENU*/
+    #collections {
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+
+    #collections ul {
+        list-style-type: none;
+        padding: 0;
+        margin-top: 1em;
+    }
+
+    #collections ul li {
+        margin-bottom: 2px;
+    }
+
+    #collections h4 {
+        font-weight:bold;
+        margin-top: 0;
+        margin-bottom: 0;
+        border-bottom: 1px dotted #000;
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 0.5em;
     }
     
     a {
