@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <!-- <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0"> -->
+        <link rel="icon" 
+        type="image/png" 
+        href="favicon.png">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="title" content="Bryce Cacpal's Digital Photography Portfolio">
+        <meta name="description" content="Bryce Cacpal is a Las Vegas based photographer that shoots portrait photography, landscape photography, and timelapse cinematography.">
+        <meta name="robots" content="index, follow">
+
+        <title>Bryce Austin</title>
+
+        <style type="text/css">
+            video#bgvid { 
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                min-width: 100%;
+                min-height: 100%;
+                width: auto;
+                height: auto;
+                z-index: -100;
+                -ms-transform: translateX(-50%) translateY(-50%);
+                -moz-transform: translateX(-50%) translateY(-50%);
+                -webkit-transform: translateX(-50%) translateY(-50%);
+                transform: translateX(-50%) translateY(-50%);
+                background: url(polina.jpg) no-repeat;
+                background-size: cover; 
+            }
+
+            #fade {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background-color: #000;
+                opacity: 0.4;
+            }
+
+            #logo {
+                z-index: 9000;
+            }
+
+            #logo{
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                top: 0;
+                margin: auto;
+                width: 500px;
+                height: 300px;
+            }
+
+            #logo svg {
+                max-width: 100%;
+                width: 100%;
+                min-width: 100%;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+        <div id="logo">
+            <a href="index2.html">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="454"
+     height="284.5" viewBox="0 0 454 284.5" enable-background="new 0 0 454 284.5" xml:space="preserve">
+<g id="bg" display="none">
+    <rect x="-23" display="inline" width="500" height="300"/>
+</g>
+<g id="art">
+    <polygon fill="#FFFFFF" points="227,125.376 168.854,67.23 166.229,69.854 224.376,128 166.229,186.146 168.854,188.77 
+        227,130.624 285.146,188.77 287.77,186.146 229.624,128 287.77,69.854 285.146,67.23   "/>
+    <path fill="#FFFFFF" d="M0,0v256h454V0H0z M435.667,237.667H18.333V18.333h417.333V237.667z"/>
+    <text transform="matrix(1 0 0 1 210.291 99)" fill="#FFFFFF" font-family="'Montserrat-SemiBold'" font-size="47">B</text>
+    <text transform="matrix(1 0 0 1 209.1631 188.7695)" fill="#FFFFFF" font-family="'Montserrat-SemiBold'" font-size="47">A</text>
+    <text transform="matrix(1 0 0 1 149.0005 131.667)" fill="#FFFFFF" font-family="'Montserrat-UltraLight'" font-size="12">PHOTO</text>
+    <text transform="matrix(1 0 0 1 177.7935 281.167)" fill="#FFFFFF" font-family="'Montserrat-Light'" font-size="12">CLICK TO ENTER</text>
+    <text transform="matrix(1 0 0 1 260.334 131.667)" fill="#FFFFFF" font-family="'Montserrat-UltraLight'" font-size="12">VIDEO</text>
+</g>
+</svg>
+        </a>
+        </div>
+
+        <div id="fade">
+        </div>
+
+        <video controls muted autoplay loop poster="polina.jpg" id="bgvid">
+            <source src="https://dl.dropboxusercontent.com/s/yjrj9mgyu7ctfku/blacklightrun.mp4?dl=0" type="video/mp4">
+        </video>
+    </body>
+</html>
